@@ -1,0 +1,126 @@
+
+.whoweare{
+	position: relative;
+	font: 3.6rem $font-bold;
+	background: #eff5f9;
+.svg{
+	fill: #eff5f9;
+}
+h2{
+	margin-bottom: 4.4rem;
+	padding-top: 1rem;
+}
+h3{
+	text-align: center;
+	padding: 0 2rem;
+}
+h4{
+	color: #1782c6;
+}
+.whoweare-item{
+	position: relative;
+.container{
+	padding: 7rem 16rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+.image{
+	min-width: 48.3rem;
+	width: 48.3rem;
+	height: 48.3rem;
+	border-radius: 50%;
+	z-index: 2;
+}
+.whoweare-description{
+	padding: 4rem;
+	width: 38rem;
+}
+.img-item1{
+	background: url(../img/FreeandFactual.jpg) no-repeat;
+	background-position: -392px center;
+}
+.img-item2{
+	background: url(../img/FreeandFactual2.jpg) no-repeat;
+	background-position: -92px center;
+}
+.img-item3{
+	background: url(../img/FreeandFactual3.jpg) no-repeat;
+	background-position:-92px -45px;
+}
+.img-item4{
+	background: url(../img/FreeandFactual4.jpg) no-repeat;
+	background-position: -23px -272px;
+}
+}
+}
+.whoweare-item:nth-of-type(even){
+	position: relative;
+	background: #fff;
+.container{
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+}
+.svg{
+	-webkit-transform: scale(-1, 1);
+	    -ms-transform: scale(-1, 1);
+	        transform: scale(-1, 1);
+	fill: #fff;
+}
+}
+}
+
+
+@media screen and (max-width: 992px){
+.whoweare .whoweare-item:nth-of-type(even) .container{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.whoweare .whoweare-item
+.container{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 3.5rem 4rem;
+.whoweare-description{
+	width: 100%;
+	padding: 4rem 4rem 8rem;
+}
+}
+}
+
+@media screen and (max-width: 768px){
+.whoweare .whoweare-item .container{
+	padding: 3.5rem 2rem 7rem;
+ .image{
+	min-width: auto;
+	width: 32rem;
+	height: 32rem;
+	background-position: center;
+	background-size: cover;
+}	
+}
+}
+@media screen and (max-width: 576px){
+.whoweare .whoweare-item .container .image{
+	width: 28rem;
+	height: 28rem;
+}	
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+.svg{
+path{
+display: none;
+}
+}
+}

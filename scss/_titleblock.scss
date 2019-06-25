@@ -1,0 +1,36 @@
+.title-block{
+	position: relative;
+	background: #4b80b7;
+	color: #fff;
+	text-align: center;
+.container{
+	padding: 4rem 15rem 4.5rem;
+.svg{
+	fill: #4b80b7;
+}
+.svg:last-child{
+	transform: scale(1, -1);
+	bottom: auto;
+	top: 99%;
+}
+}
+}
+@media screen and (min-width: 1280px){
+.title-block .container{
+	padding: 4rem 15rem 6rem;
+}
+}
+@media screen and (max-width: 992px){
+.title-block {
+.container{
+	padding: 3rem 4rem 3.5rem;
+}
+}
+}
+@media screen and (max-width: 768px){
+.title-block{
+ .container{
+	padding: 3rem 2rem 3rem;
+}
+}
+}

@@ -1,0 +1,165 @@
+.top{
+	position: relative;
+	background: url(../img/bg-top.jpg) no-repeat;
+	background-size: cover;
+	padding-bottom: 25rem;
+.logo{
+	position: relative;
+    z-index: 2;
+	padding: 4rem 6rem;
+}
+.hexagon1{
+	opacity: 0.2;
+	top: -48px;
+    right: 413px;
+}
+.hexagon2{
+	opacity: 0.1;
+	top: -48px;
+    right: 219px;
+}
+.hexagon3{
+	opacity: 0.2;
+	top: -48px;
+    right: 123px;
+}
+.hexagon4{
+	opacity: 1;
+	top: 36px;
+    right: 74px;
+.hexagon-item{
+	 background: #acaaa6;
+&:before{
+	border-bottom: 49px solid  #acaaa6;
+
+}
+&:after{
+	border-top: 49px solid #acaaa6;
+}
+}
+}
+.hexagon5{
+	opacity: 0.9;
+	top: 122px;
+    right: 124px;
+.hexagon-item{
+	 background: #a49e95;
+&:before{
+	border-bottom: 49px solid #a49e95;
+
+}
+&:after{
+	border-top: 49px solid #a49e95;
+}
+}
+}
+.top-block{
+	position: relative;
+	font-family: $font-text;
+	max-width: 540px;
+	padding: 4rem 6rem;
+	z-index: 2;
+h1{
+	font: 5.6rem $font-title;
+}
+h2{
+	color: #117fc5;
+	font: 5.6rem $font-bold;
+	margin-bottom: 3rem;
+}
+h3{
+	font-size: 3rem;
+	font-weight: 400;
+	line-height: 3.5rem;
+	margin-bottom: 3rem;
+}
+}
+p{
+	margin-bottom: 4rem;
+}
+}
+.form{
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+.arrow{
+	position: absolute;
+	left: 90%;
+    top: -4rem;
+}
+input{
+	border-radius: 3.1rem;
+	max-width: 45.7rem;
+	width: 100%;
+	height: 6.1rem;
+}
+input[type=text]{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font: 400 1.7rem $font-menu;
+	border: 0.1rem solid #9cbbcf;
+	background: #fff;
+	color: #9ab7c9;
+	border-radius: 3.1rem;
+	padding-left: 3rem;
+	margin-bottom: 0.9rem;
+&::-webkit-input-placeholder{
+	color: #9ab7c9;
+}
+}
+input[type=submit]{
+	background: #ff4e00;
+	color: #fefefe;
+	font: 3.2rem $font-button;
+	border: none;
+	margin-top: 4rem;
+	cursor: pointer;
+&:hover{
+	background: #ff4e00 * 2;
+}
+}
+}
+
+@media screen and (max-width: 768px){
+.top{
+	background: url(../img/bg-top-mob.jpg);
+	padding-bottom: 10rem;
+.logo{
+	padding: 3rem 3rem;
+}
+.top-block{
+	max-width: 100%;
+	padding: 3rem 3rem;
+}
+.form{
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+.arrow{
+	display: none;
+}
+}
+}
+}
+@media screen and (max-width: 576px){
+.top .top-block{
+text-align: center;
+h1, h2{
+	font-size: 4rem;
+}
+h3{
+	font-size: 2.5rem;
+}
+p{
+	font-size: 1.5rem;
+}
+}
+.form input[type=submit]{
+	font-size: 2.5rem;
+}
+}

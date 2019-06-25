@@ -1,0 +1,222 @@
+.thirdfrombelow{
+	background: #397467;
+.container{
+	padding: 27rem 2.5rem 10rem;
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+.hex-photobig{
+	width: 49.9rem;
+	height: 43.2rem;
+    background: transparent url("../img/photowoman.jpg") no-repeat center center; 
+ &:before{  
+    border-right: 12.5rem solid transparent;
+    border-bottom: 21.6rem solid #397467;
+    border-top: 21.6rem solid #397467;
+}
+&:after{
+    border-left: 12.5rem solid transparent;
+    border-bottom: 21.6rem solid #397467;
+    border-top: 21.6rem solid #397467;
+}
+}
+.thirdfrombelow-text{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	max-width: 40.5rem;
+	width: 100%;
+	padding-left: 2.5rem;
+h3{
+	margin-bottom: 3rem;
+}
+p{
+	margin-bottom: 4.5rem;
+}
+}
+.clip-wrap{
+    display: inline-block;
+    position: relative;
+    top: -11.3rem;
+    left: -10rem;
+.path{
+	position: relative;
+	width: 38.5rem;
+    height: 33.4rem;
+   	background: rgba(255, 255, 255, 0.8);
+&:after{
+	content: "";
+  	position: absolute;
+  	background: rgba(255, 255, 255, 0.8);
+  	background: url("../img/photosmall.jpg") no-repeat center center;
+  	top: 1.6rem;
+  	left: 1.6rem;
+  	right: 1.6rem;
+  	bottom: 1.6rem;
+}
+}
+}
+}
+.thirdfrombelow-text p:first-child{
+	margin-bottom: 4.5rem;
+}
+.block-hex{
+	position: absolute;
+	left: -34.3rem;
+    top: -12.5rem;
+.hexagon-item{
+	width: 43.2rem;
+    height: 25.2rem;
+	background: rgba(255, 255, 255, 0.1);
+&:before,
+&:after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	left: 0;
+	border-left: 21.6rem solid transparent;
+	border-right: 21.6rem solid transparent;
+}
+&:before{
+	top: -126px;
+	border-bottom: 12.6rem solid  rgba(255, 255, 255, 0.1);
+
+}
+&:after{
+	bottom: -12.6rem;
+	border-top: 12.6rem solid rgba(255, 255, 255, 0.1);
+}
+}
+}
+}
+.path, 
+.path:after{
+	 -webkit-clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+	clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+}
+
+@media screen and (max-width: 1212px){
+.thirdfrombelow .container .thirdfrombelow-text{
+	max-width: 35.5rem;
+}
+}
+
+
+@media screen and (max-width: 1070px){
+.thirdfrombelow .container{
+	padding: 20rem 4rem 10rem;
+.thirdfrombelow-text{
+	max-width: 30.7rem;
+	padding-left: 0;
+}
+ .hex-photobig{
+	width: 33.2rem;
+	height: 28.9rem;
+	background-size: cover;
+&:before{
+	border-right: 7.5rem solid transparent;
+    border-bottom: 14.5rem solid #397467;
+    border-top: 14.5rem solid #397467;
+}
+&:after{
+	border-left: 7.5rem solid transparent;
+    border-bottom: 14.5rem solid #397467;
+    border-top: 14.5rem solid #397467;
+}
+}
+.clip-wrap{
+	top: -5.3rem;
+    left: -6rem;
+ .path{
+	width: 25.7rem;
+	height: 22.3rem;
+&:after{
+	background-size: cover;
+}
+}
+}
+.hex-photos{
+	position: relative;
+	left: 0;
+    right: 0;
+    margin: auto;
+}
+}
+.thirdfrombelow .block-hex{
+	  top: 10rem;
+	  left: -40rem;
+}
+}
+@media screen and (max-width: 768px){
+.thirdfrombelow .container{
+	padding: 15rem 2rem 10rem;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+.thirdfrombelow-text{
+	max-width: 100%;
+	padding: 0;
+}
+}	
+}
+@media screen and (max-width: 576px){
+.thirdfrombelow .container{
+ .hex-photobig{
+	width: 24.9rem;
+	height: 21.6rem;
+&:before{
+	border-right: 6rem solid transparent;
+    border-bottom: 10.8rem solid #397467;
+    border-top: 10.8rem solid #397467;
+}
+&:after{
+	border-left: 6rem solid transparent;
+    border-bottom: 10.8rem solid #397467;
+    border-top: 10.8rem solid #397467;
+}
+}	
+.clip-wrap{
+	top: -2.3rem;
+    left: -3rem;
+ .path{
+	width: 19.2rem;
+	height: 16.7rem;
+}
+}
+}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (max-width: 1070px){
+.thirdfrombelow .container{
+.hex-photos{
+   margin: 0 2rem;
+}
+.clip-wrap{
+	top: -5.3rem;
+    left: -1rem;
+  
+}
+}
+}
+@media screen and (max-width: 768px){
+.thirdfrombelow .container{
+.hex-photos .hex-photo{
+	margin: auto;
+}
+}	
+}
+@media screen and (max-width: 576px){
+.thirdfrombelow .container{
+.clip-wrap{
+	top: -2rem;
+	left: 6rem;
+}
+}	
+}
+}

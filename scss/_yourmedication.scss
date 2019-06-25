@@ -1,0 +1,43 @@
+.yourmedication{
+	position: relative;
+	background: url(../img/yourmedication.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+.container{
+	padding: 13rem 15rem 16.5rem;
+.svg{
+	fill: #142435;
+}
+h2{
+	margin-bottom: 3rem;
+}
+h3{
+	margin-bottom: 50rem;
+}
+p{
+	margin-bottom: 2rem;
+}
+.button-link:hover{
+	background: #fff;
+	color: #4b80b7;
+}
+}
+}
+
+@media screen and (max-width: 992px){
+.yourmedication .container{
+	padding: 3rem 4rem 16.5rem;
+h3{
+	margin-bottom: 37rem;
+}
+}
+}
+@media screen and (max-width: 768px){
+.yourmedication .container{
+	padding: 3rem 2rem 16.5rem;
+h3{
+	margin-bottom: 15rem;
+}
+}
+}

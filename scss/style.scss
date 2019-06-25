@@ -1,0 +1,150 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	color:  #000;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font-title;	
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+input[type=submit],
+input[type=text]{
+      -webkit-appearance: none;
+    	-moz-appearance: none;
+    		appearance: none;
+     border-radius: 0;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+}
+.block-hex{
+	position: absolute;
+	z-index: 1;
+.hexagon-item{
+	position: absolute;
+	display: inline-block;
+	width: 17rem;
+	height: 10rem;
+	-webkit-transform: rotateZ(90deg);
+		-ms-transform: rotateZ(90deg);
+		transform: rotateZ(90deg);
+	background:  #6f6f6f;
+&:before,
+&:after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	border-left: 8.5rem solid transparent;
+	border-right: 8.5rem solid transparent;
+}
+&:before{
+	top: -4.9rem;
+	border-bottom: 4.9rem solid  #6f6f6f;
+
+}
+&:after{
+	bottom: -4.9rem;
+	border-top: 4.9rem solid #6f6f6f;
+}
+}
+}
+p{
+	font: 1.8rem/3rem $font-text;
+}
+.svg{
+	position: absolute;
+	width: 100%;
+	top: auto;
+	left: 0;
+	right: 0;
+	bottom: 100%;
+	stroke: none;
+}
+.button-link{
+ 	max-width: 45.8rem;
+ 	width: 100%;
+ 	display: inline-block;
+ 	color: #fff;
+	border-radius: 5rem;
+	border: 0.2rem solid #ffffff;
+	width: 18.2rem;
+	font: 3.6rem $font-button;
+	white-space: nowrap;
+	padding: 1.65rem 13.8rem;
+}
+h2{
+	font: 5.6rem $font-title;
+	text-align: center;
+}
+h3, h4{
+	font: 3.6rem $font-bold;
+}
+
+.hex-photo{
+	 background-size: cover;
+    position: relative;
+&:before{
+	content: "";
+    position: absolute;
+   	top: 0;
+    left: 0;
+    width: 0;
+    height: 0.1rem;
+}
+&:after{
+	content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0.1rem;    
+}
+}
+
+@media screen and (max-width: 576px){
+h2{
+	font-size: 5rem;
+}
+h3, h4{
+	font-size: 3rem;
+}
+.button-link{
+	font-size: 3rem;
+	padding: 1.65rem 10.8rem;
+}
+}
+@media screen and (max-width: 440px){
+.button-link{
+	padding: 1.2rem 4.5rem;
+}	
+}
+@import "header";
+@import "whoweare";
+@import "yourmedication";
+@import "titleblock";
+@import "thepeoplechoice";
+@import "isyourmedication";
+@import "referenced";
+@import "thirdfrombelow";
+@import "secondblockbelow";
+@import "footer";
+

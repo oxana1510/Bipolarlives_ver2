@@ -1,0 +1,238 @@
+.secondblockbelow{
+	position: relative;
+	background: #d87617;
+.svg{
+	fill:  #d87617;
+}
+.container{
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 0 4rem 19rem;
+.hex-photobig{
+	width: 49.9rem;
+	height: 43.3rem;
+	background: transparent url("../img/people.jpg") no-repeat center center; 
+&:before{  
+    border-right: 12.5rem solid transparent;
+    border-bottom: 21.6rem solid #d87617;
+    border-top: 21.6rem solid #d87617;
+}
+&:after{
+    border-left: 12.5rem solid transparent;
+    border-bottom: 21.6rem solid #d87617;
+    border-top: 21.6rem solid #d87617;
+}
+}
+.clip-wrap{
+    display: inline-block;
+    position: relative;
+    top: -11.3rem;
+    left: 22rem;
+.path{
+	position: relative;
+	width: 38.5rem;
+    height: 33.4rem;
+   	background: rgba(255, 255, 255, 0.8);
+&:after{
+	content: "";
+  	position: absolute;
+  	background: rgba(255, 255, 255, 0.8);
+  	background: url("../img/girl.jpg") no-repeat center center;
+  	top: 1.6rem;
+  	left: 1.6rem;
+  	right: 1.6rem;
+  	bottom: 1.6rem;
+}
+}
+}
+}
+.block-hex{
+	position: absolute;
+	right: 9rem;
+    top: -12.5rem;
+.hexagon-item{
+	width: 43.2rem;
+    height: 25.2rem;
+	background: rgba(255, 255, 255, 0.1);
+&:before,
+&:after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	left: 0;
+	border-left: 21.6rem solid transparent;
+	border-right: 21.6rem solid transparent;
+}
+&:before{
+	top: -12.6rem;
+	border-bottom: 12.6rem solid  rgba(255, 255, 255, 0.1);
+
+}
+&:after{
+	bottom: -12.6rem;
+	border-top: 12.6rem solid rgba(255, 255, 255, 0.1);
+}
+}
+}
+}
+.block-hex-small{
+	position: absolute;
+	top: -38.6rem;
+    right: -4.4rem;
+.hexagon-item{
+	width: 21.6rem;
+    height: 12.6rem;
+	background: rgba(255, 255, 255, 0.1);
+	-webkit-transform: rotateZ(90deg);
+		-ms-transform: rotateZ(90deg);
+		transform: rotateZ(90deg);
+&:before,
+&:after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	left: 0;
+	border-left: 10.8rem solid transparent;
+	border-right: 10.8rem solid transparent;
+}
+&:before{
+	top: -6.5rem;
+	border-bottom: 6.5rem solid  rgba(255, 255, 255, 0.1);
+
+}
+&:after{
+	bottom: -6.5rem;
+	border-top: 6.5rem solid rgba(255, 255, 255, 0.1);
+}
+}
+}
+.secondblockbelow-text{
+	position: relative;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	max-width: 48.9rem;
+	width: 100%;
+	padding: 10rem 8rem 0 0;
+h3{
+	margin-bottom: 3rem;
+}
+p{
+	margin-bottom: 4.5rem;
+}
+.block-hex{
+	top: 23.5rem;
+    left: -34.5rem;
+}
+}
+@media screen and (max-width: 1212px){
+.secondblockbelow-text{
+	max-width: 355px;
+	padding-right: 4.5rem;
+}
+}
+@media screen and (max-width: 1070px){
+.secondblockbelow .container{
+	padding: 4rem 4rem 10rem;
+.secondblockbelow-text{
+	max-width: 307px;
+	padding-right: 0;
+}
+ .hex-photobig{
+	width: 33.2rem;
+	height: 28.9rem;
+	background-size: cover;
+&:before{
+	border-right: 7.5rem solid transparent;
+    border-bottom: 14.5rem solid #d87617;
+    border-top: 14.5rem solid #d87617;
+}
+&:after{
+	border-left: 7.5rem solid transparent;
+    border-bottom: 14.5rem solid #d87617;
+    border-top: 14.5rem solid #d87617;
+}
+}
+.clip-wrap{
+	top: -5.3rem;
+    left: 11rem;
+ .path{
+	width: 257px;
+	height: 22.3rem;
+&:after{
+	background-size: cover;
+}
+}
+}
+.hex-photos{
+	position: relative;
+	left: 0;
+    right: 0;
+    margin: auto;
+}
+}
+}
+
+@media screen and (max-width: 768px){
+.secondblockbelow .container{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+		padding: 4rem 2rem 10rem;
+.secondblockbelow-text{
+	max-width: 100%;
+	padding: 0;
+}
+}	
+}	
+
+@media screen and (max-width: 576px){
+.secondblockbelow .container{
+ .hex-photobig{
+	width: 24.9rem;
+	height: 21.6rem;
+&:before{
+	border-right: 6rem solid transparent;
+    border-bottom: 10.8rem solid #d87617;
+    border-top: 10.8rem solid #d87617;
+}
+&:after{
+	border-left: 6rem solid transparent;
+    border-bottom: 10.8rem solid #d87617;
+    border-top: 10.8rem solid #d87617;
+}
+}	
+.clip-wrap{
+	top: -2.3rem;
+    left: 7rem;
+ .path{
+	width: 19.2rem;
+	height: 16.7rem;
+}
+}
+}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (max-width: 1070px){
+.secondblockbelow .container{
+.hex-photos{
+   margin: 0 2rem;
+}
+}
+}
+@media screen and (max-width: 768px){
+.secondblockbelow .container{
+.hex-photos .hex-photo{
+	margin: auto;
+}
+}	
+}
+}

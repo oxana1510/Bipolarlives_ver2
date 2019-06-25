@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="196px" height="170px" viewBox="0 0 196 170" xml:space="preserve">
+<symbol viewBox="0 0 196 170" id="hex">
+		<defs>
+			<polygon id="SVGID_1_" points="195.999,84.998 147,169.869 48.999,169.869 0.001,84.998 48.999,0.127 147,0.127 			"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<defs>
+				<rect id="SVGID_3_" width="196" height="170" overflow="visible"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  overflow="visible"/>
+			</clipPath>
+			
+				<image overflow="visible" clip-path="url(#SVGID_4_)" width="196" height="170" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAACqCAYAAADyWOBBAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWZJREFUeNrs00ENADAIALEx9zMy
+NXjACgkSeLcSLrmo9/MA40oAhgBDgCHAEGAIMAQYAgwBhgBDgCHAEGAIMAQYAgwBhgBDgCHAEGAI
+MAQYAjAEGAIMAYYAQ4AhwBBgCDAEGAIMAYYAQ4AhwBBgCDAEGAIMAYYAQ4AhwBCAIcAQYAgwBBgC
+DAGGAEOAIcAQYAgwBBgCDAGGAEOAIcAQYAgwBBgCDAGGAEMAhgBDgCHAEGAIMAQYAgwBhgBDgCHA
+EGAIMAQYAgwBhgBDgCHAEGAIMAQYAjAEGAIMAYYAQ4AhwBBgCDAEGAIMAYYAQ4AhwBBgCDAEGAIM
+AYYAQ4AhwBBgCMAQYAgwBBgCDAGGAEOAIcAQYAgwBBgCDAGGAEOAIcAQYAgwBBgCDAGGAEMAhgBD
+gCHAEGAIMAQYAgwBhgBDgCHAEGAIMAQYAgwBhgBDgCHAEGAIMAQYAgwBGAIMAYYAQ8BGCzAAFeQE
+Lms1jf0AAAAASUVORK5CYII=">
+			</image>
+		</g>
+
+</symbol>
+</svg>
+
